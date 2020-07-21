@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "a6bc2f90-d797-4d0a-b9a6-86b43bbee46b",
+		"name": "hela_sofiene",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/Birdly/servlets/ServletUser/1/Ke12FFX1ohWE0b7vdPWS1B5DmPTXGZpM",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/Tweet/servlets/ServletMessages/?login=helaa&messages=Bienvenue Test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweet",
+						"servlets",
+						"ServletMessages",
+						""
+					],
+					"query": [
+						{
+							"key": "login",
+							"value": "helaa"
+						},
+						{
+							"key": "messages",
+							"value": "Bienvenue Test"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Birdly/servlets/ServletUser/1/Ke12FFX1ohWE0b7vdPWS1B5DmPTXGZpM",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/Tweet/servlets/ServletMessages/?login=helaa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweet",
+						"servlets",
+						"ServletMessages",
+						""
+					],
+					"query": [
+						{
+							"key": "login",
+							"value": "helaa"
+						},
+						{
+							"key": "messages",
+							"value": "Bienvenue Test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Birdly/servlets/ServletUser/1/Ke12FFX1ohWE0b7vdPWS1B5DmPTXGZpM",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/Tweet/servlets/ServletFriends/?myLogin=helaluyaa&friendLogin=heyyouu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweet",
+						"servlets",
+						"ServletFriends",
+						""
+					],
+					"query": [
+						{
+							"key": "myLogin",
+							"value": "helaluyaa"
+						},
+						{
+							"key": "friendLogin",
+							"value": "heyyouu"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Birdly/servlets/ServletUser/1/Ke12FFX1ohWE0b7vdPWS1B5DmPTXGZpM",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/Tweet/servlets/ServletFriends/helamn",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweet",
+						"servlets",
+						"ServletFriends",
+						"helamn"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

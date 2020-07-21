@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "cb777d76-50c1-4b89-9ce8-1b45b1d8aa6a",
+		"name": "TestWeb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/Tweet/ServletUser?login=halaa2&nom=hela&prenom=menzli&password=12356677&mail=menzli@mail.com",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Tweet/ServletUser?login=halaa2&nom=hela&prenom=menzli&password=12356677&mail=menzli@mail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweet",
+						"ServletUser"
+					],
+					"query": [
+						{
+							"key": "login",
+							"value": "halaa2"
+						},
+						{
+							"key": "nom",
+							"value": "hela"
+						},
+						{
+							"key": "prenom",
+							"value": "menzli"
+						},
+						{
+							"key": "password",
+							"value": "12356677"
+						},
+						{
+							"key": "mail",
+							"value": "menzli@mail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Tweet/ServletUser?login=halaa2&nom=hela&prenom=menzli&password=12356677&mail=menzli@mail.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Tweet/ServletUser/halaa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweet",
+						"ServletUser",
+						"halaa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Tweet/ServletUser?login=helaaMenz",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Tweet/ServletUser?login=helaaMenz",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweet",
+						"ServletUser"
+					],
+					"query": [
+						{
+							"key": "login",
+							"value": "helaaMenz"
+						},
+						{
+							"key": "nom",
+							"value": "hela",
+							"disabled": true
+						},
+						{
+							"key": "prenom",
+							"value": "menzli",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "12356677",
+							"disabled": true
+						},
+						{
+							"key": "mail",
+							"value": "menzli@mail.com",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/Tweet/ServletUser?login=helaaMenz",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Tweet/ServletUser/helaa98",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Tweet",
+								"ServletUser",
+								"helaa98"
+							],
+							"query": [
+								{
+									"key": "login",
+									"value": "helaa98",
+									"disabled": true
+								},
+								{
+									"key": "nom",
+									"value": "hela",
+									"disabled": true
+								},
+								{
+									"key": "prenom",
+									"value": "menzli",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "12356677",
+									"disabled": true
+								},
+								{
+									"key": "mail",
+									"value": "menzli@mail.com",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "42"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 05 Jun 2020 20:20:56 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=20"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\"code\":-1,\"message\":\"Champs manquant!\"}\r\n"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
