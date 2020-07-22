@@ -5,6 +5,9 @@ Notre réseau social Birdy permet à des utilisateurs d’interagir avec d’aut
 Hors connexion, un utilisateur n’a que la possibilité de créer un compte et de se connecter.
 Lorsqu’un utilisateur se connecte, cela permet d’ouvrir une page principale qui contient le flux d’activité du réseau,
 c’est-à-dire les messages les plus récents de tout Birdy.
+
+![L'architecture du projet](./archi.png)
+
 Une fois connecté, un utilisateur peut :
 
 — créer des messages.
