@@ -6,7 +6,7 @@ Hors connexion, un utilisateur n’a que la possibilité de créer un compte et 
 Lorsqu’un utilisateur se connecte, cela permet d’ouvrir une page principale qui contient le flux d’activité du réseau,
 c’est-à-dire les messages les plus récents de tout Birdy.
 
-![L'architecture du projet](./archi.png)
+![L'architecture du projet](./Archi.png)
 
 Une fois connecté, un utilisateur peut :
 
